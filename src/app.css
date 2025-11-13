@@ -111,6 +111,8 @@
 	--color-sidebar-ring: var(--sidebar-ring);
 
 	/*Custom*/
+	--font-sans: 'Montserrat', sans-serif;
+	--font-montserrat: 'Montserrat', sans-serif;
 	--font-mono: 'JetBrains Mono', monospace;
 	--font-philosopher: 'Philosopher', sans-serif;
 }

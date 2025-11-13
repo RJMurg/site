@@ -28,7 +28,7 @@
 	</div>
 </div>
 
-<div class="font-montserrat h-screen w-screen border-b-4 border-neutral-900">
+<div class="h-screen w-screen border-b-4 border-neutral-900 font-montserrat">
 	<div class="m-5 flex h-full flex-col items-start justify-end">
 		<h1 class="mb-10 h-1/2 text-6xl font-bold">Montserrat</h1>
 

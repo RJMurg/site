@@ -3,7 +3,8 @@
 	import { Linkedin, Github } from 'lucide-svelte';
 	import Routes from '$lib/contents/routes.json';
 	import { resolve } from '$app/paths';
-	export let subtitle: string;
+
+	let { subtitle }: { subtitle: string } = $props();
 </script>
 
 <svelte:head>
@@ -18,16 +19,22 @@
 		<img
 			src="headshot.webp"
 			alt="Ruán Murgatroyd"
-			class="xs:w-2/3 aspect-square rounded-full p-10 sm:w-1/2 md:w-3/12"
+			class="aspect-square w-3/4 rounded-full p-10 sm:w-1/2 md:w-3/12"
 		/>
 		<div class="items-left flex flex-col">
-			<h1 class="pl-0 text-center text-4xl font-bold md:pl-10 md:text-left md:text-6xl">
+			<h1 class="pl-0 text-center text-4xl font-black md:pl-10 md:text-left md:text-6xl">
 				Ruán Murgatroyd
 			</h1>
-			<div class="subtitle-container pl-0 md:pl-10" style="height: 4rem">
-				<h2 class="text-center text-2xl font-medium md:text-left md:text-4xl">{subtitle}</h2>
+			<div class="subtitle-container pl-0 md:pl-10">
+				<h2 class="text-center text-2xl font-light md:text-left md:text-4xl md:font-thin">
+					{subtitle}
+				</h2>
 				<span class="flex flex-row items-center justify-center md:justify-start">
-					<Button href="https://github.com/rjmurg" target="_blank" class="mt-5 mr-5">
+					<Button
+						href="https://github.com/rjmurg"
+						target="_blank"
+						class="mt-5 mr-5 bg-red-500 font-bold text-white hover:bg-red-300"
+					>
 						<Github class="mr-2 h-4 w-4" />
 						GitHub
 					</Button>
@@ -37,7 +44,7 @@
 						variant="outline"
 						class="mt-5"
 					>
-						<Linkedin class="mr-2 h-4 w-4" />
+						<Linkedin class="mr-2 h-4 w-4 font-bold" />
 						LinkedIn
 					</Button>
 				</span>
@@ -45,9 +52,9 @@
 		</div>
 	</div>
 
-	<h2 class="xs:text-3xl pt-10 text-center text-6xl">Find out more about</h2>
+	<h2 class="pt-10 text-center text-3xl md:mb-4 md:text-4xl">Find out more about</h2>
 	<div
-		class="flex w-screen flex-row items-center justify-center p-2 text-center text-4xl text-gray-400 md:flex-row"
+		class="items-between flex w-screen flex-col justify-center p-2 text-center text-4xl text-gray-400 md:flex-row md:items-center"
 	>
 		{#each Routes.routes as route (route.name)}
 			{#if route.name !== 'Home'}
