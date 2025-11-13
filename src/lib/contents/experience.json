@@ -1,0 +1,152 @@
+{
+	"categories": [
+		{
+			"title": "Work Experience",
+			"items": [
+				{
+					"title": "STAR Student",
+					"image": "sap.png",
+					"link": "",
+					"shortDescription": "SAP",
+					"description": [
+						"Joined May 2024",
+						"STAR Programme consists of 2 rotations separated by semester 1 of Third Year",
+						"Created production features in SAP Analytics Cloud",
+						"Second rotation on Core team in SAP Global Headquarters, Germany",
+						"Sole developer of product that is actively being integrated in to SAP Analytics Cloud",
+						"Designed and implemented multi-platform standard for creation of analytical dashboards"
+					]
+				},
+				{
+					"title": "Sysadmin",
+					"image": "cspp.svg",
+					"link": "https://cspp.ie/",
+					"shortDescription": "Computer Science Society",
+					"description": [
+						"Formerly Chairperson in 2023/24, and First Year Rep in 2022/23",
+						"Single-handedly restored technical infrastructure after 5-year gap",
+						"Collaborated with IT Department to secure 4 public IPv4 IP Addresses",
+						"Chief Architect on infrastructure and planning, sole developer on multiple projects"
+					]
+				},
+				{
+					"title": "President",
+					"image": "societies.jpg",
+					"link": "",
+					"shortDescription": "TU Dublin Societies",
+					"description": [
+						"Former Grangegorman Chairperson 2023/24",
+						"Represented over 100 societies and 500 students at university and national levels",
+						"Returned student voices to society budgets in over 5 years",
+						"Made Societies Executive transparent and accountable",
+						"First President to promote cross-campus collaborations",
+						"Directly impacted the most amount of awards won by TU Dublin at national societies awards",
+						"Introduced User Group for the only student centre in flagship Grangegorman campus"
+					]
+				}
+			]
+		},
+		{
+			"title": "Competitions",
+			"items": [
+				{
+					"title": "Best Individual",
+					"image": "societies.jpg",
+					"link": "",
+					"shortDescription": "TU Dublin Societies Awards",
+					"description": [
+						"Won for the most significant contribution to societies in the 2024/25 Academic Year",
+						"Contribution includes massively improved student voice, bringing all campuses together, and restoring the technical aspect of the Computer Science Society",
+						"Negotiated and worked with University staff to improve Student Life and Societies"
+					]
+				},
+				{
+					"title": "National Champion",
+					"image": "wsi.png",
+					"link": "",
+					"shortDescription": "WorldSkills Ireland 2024 Cloud Computing",
+					"description": [
+						"25th - 27th of September in the RDS, Dublin",
+						"Sponsored by AWS",
+						"Three days of differing challenges from system architecture to cybersecurity",
+						"Placed first and will represent Ireland in EuroSkills 2025",
+						"Received Silver Medal from Department of Further and Higher Education, Research, Innovation and Science",
+						"Received Award from WorldSkills and Amazon Web Services"
+					]
+				},
+				{
+					"title": "University Champion",
+					"image": "zerodays.jpg",
+					"link": "",
+					"shortDescription": "ZeroDays x TU Dublin CTF",
+					"description": [
+						"December 2022 in TU Dublin Blanchardstown",
+						"Team of 4 placed first out of 8 other teams",
+						"Challenges involved reverse engineering, web exploits, cryptography, and more",
+						"Won tickets to IRISSCON CTF 2022 and placed second against industry professionals"
+					]
+				},
+				{
+					"title": "Team Member",
+					"image": "ecsc.webp",
+					"link": "",
+					"shortDescription": "European Cyber Security Challenge",
+					"description": [
+						"October 2023 in Hamar, Norway",
+						"3-day competition with jeopardy-style and attack-defense challenges",
+						"Senior reserve for Team Ireland"
+					]
+				},
+				{
+					"title": "Second Place Winner",
+					"image": "aisac.jpeg",
+					"link": "",
+					"shortDescription": "Aviation ISAC Cybersecurity Challenge",
+					"description": [
+						"August 2023 in Maldron Blue Hotel, Dublin",
+						"Team of 4 placed second out of 10 other teams",
+						"Challenges involved hacking baggage handling systems, air traffic control systems, drones, engine controllers, etc.",
+						"Won a cash prize"
+					]
+				},
+				{
+					"title": "Competitor",
+					"image": "growthhub.webp",
+					"link": "",
+					"shortDescription": "TU Dublin President's Hackathon",
+					"description": [
+						"November 2022 in TU Dublin Grangegorman",
+						"Team of 4 placed fourth out of 11 other teams",
+						"Designed a product which would minimise food waste in Ireland",
+						"Designed an app which would connect to supermarket apps and suggest recipes based on what was in the user's fridge"
+					]
+				}
+			]
+		},
+		{
+			"title": "Certifications",
+			"items": [
+				{
+					"title": "AWS Certified Solutions Architect - Associate",
+					"image": "solutionsArchitect.webp",
+					"link": "https://www.credly.com/badges/0ce36db6-0956-43d5-a94d-9cc11684cc05/public_url",
+					"shortDescription": "Amazon Web Services",
+					"description": [
+						"Earned June 2025",
+						"Demonstrates ability to design and deploy scalable systems on AWS"
+					]
+				},
+				{
+					"title": "Amazon Web Services Developer - Associate",
+					"image": "developer.webp",
+					"link": "https://www.credly.com/badges/91124053-b293-4f5a-be87-752cb0a7ebea/public_url",
+					"shortDescription": "Amazon Web Services",
+					"description": [
+						"Earned September 2025",
+						"Demonstrates knowledge in lifecycle management, security, CI/CD and developing on AWS"
+					]
+				}
+			]
+		}
+	]
+}

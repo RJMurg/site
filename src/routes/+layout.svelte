@@ -1,14 +1,9 @@
-<script lang="ts">
+<script>
 	import '../app.css';
-	import LightDarkToggle from '$lib/components/custom/LightDarkToggle.svelte';
-	import { ModeWatcher } from 'mode-watcher';
-
-	let { children } = $props();
 </script>
 
-<ModeWatcher />
-<div class="flex h-screen w-screen flex-col items-center justify-center">
-	{@render children()}
-
-	<LightDarkToggle />
+<div
+	class="dark flex min-h-screen min-w-screen flex-col items-center justify-center overflow-hidden bg-black text-white"
+>
+	<slot />
 </div>

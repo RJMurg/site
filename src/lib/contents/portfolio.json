@@ -1,0 +1,109 @@
+{
+	"categories": [
+		{
+			"title": "Technical Projects",
+			"items": [
+				{
+					"title": "SIM",
+					"image": "",
+					"link": "https://github.com/rjmurg/sim",
+					"shortDescription": "At-a-glance date checking for shops",
+					"description": [
+						"Created while working at a local shop",
+						"MVP created in two days",
+						"Allows at-a-glance list of stock that needs to be wasted",
+						"Stock added to system when placed on the shelf",
+						"Rewritten in SvelteKit for better performance"
+					]
+				},
+				{
+					"title": "BitHunt",
+					"image": "bithunt.png",
+					"link": "https://github.com/cs-soc-tudublin/bithunt",
+					"shortDescription": "Treasure Hunt for First Years",
+					"description": [
+						"QR codes hidden around the campus during Freshers Week",
+						"Students scan codes and win a prize when they find them all",
+						"Allowed First Years to get to know the campus",
+						"Written in SvelteKit with direct connection to PostgreSQL"
+					]
+				},
+				{
+					"title": "Starboard",
+					"image": "starboard.webp",
+					"link": "https://github.com/rjmurg/friendconstellation",
+					"shortDescription": "Get stars for completing tasks",
+					"description": [
+						"Based off of the 'Starboard' system from Primary Schools",
+						"Competitors would receive stars for completing silly tasks",
+						"Written in SvelteKit with TailwindCSS and ShadCN",
+						"Prisma ORM used to connect to PostgreSQL database",
+						"Designed for containerisation"
+					]
+				},
+				{
+					"title": "Traqit",
+					"image": "",
+					"link": "",
+					"shortDescription": "Inventory Management for Student Life",
+					"description": [
+						"Created as Final Year Project in Computer Science Undergraduate",
+						"Complete inventory management system for Clubs and Societies in TU Dublin",
+						"Completed project will be deployed & used by Student Life in TU Dublin"
+					]
+				},
+				{
+					"title": "Clerk",
+					"image": "clerk.svg",
+					"link": "https://github.com/cs-soc-tudublin/clerk",
+					"shortDescription": "Obsidian plugin for writing documents faster",
+					"description": [
+						"Improves creation of markdown files for the TU Dublin Computer Science Society",
+						"Creates 'Frontmatter' for docs, meeting minutes and the blog",
+						"Written in TypeScript"
+					]
+				},
+				{
+					"title": "TrackEngine",
+					"image": "",
+					"link": "https://github.com/irishtnt/trackengine",
+					"shortDescription": "Improved Realtime API for Irish Rail",
+					"description": [
+						"First ever API",
+						"Collects & pre-parses XML data from Irish Rail's Realtime API",
+						"Follows RESTful principles",
+						"Written in Node.js with Express"
+					]
+				}
+			]
+		},
+		{
+			"title": "Other Projects",
+			"items": [
+				{
+					"title": "MOAF 2022",
+					"image": "dyt.webp",
+					"link": "https://dublinyouththeatre.com/productions/members-one-act-festival-2022/",
+					"shortDescription": "Member's One-Act Festival",
+					"description": [
+						"First year as DYT's Lighting Designer",
+						"Lit 2 consecutive one-act shows using the same rig",
+						"Use of general wash allowed multiple specials to be used for each show"
+					]
+				},
+				{
+					"title": "DOAF 2023",
+					"image": "dyt.webp",
+					"link": "https://dublinyouththeatre.com/productions/debut-one-act-festival-2023/",
+					"shortDescription": "Debut One-Act Festival",
+					"description": [
+						"Second year as DYT's Lighting Designer",
+						"Successfuly lit 3 consecutive one-act shows using the same rig",
+						"Stage Wash was split into sections to improve variability between shows and multiple specials",
+						"Co-facilitated DYT's first ever member-led workshop, 'Lighting for Theatre'"
+					]
+				}
+			]
+		}
+	]
+}

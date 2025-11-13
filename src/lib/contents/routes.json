@@ -1,0 +1,20 @@
+{
+	"routes": [
+		{
+			"path": "/",
+			"name": "Home"
+		},
+		{
+			"path": "https://blog.rjm.ie",
+			"name": "Blog"
+		},
+		{
+			"path": "./portfolio",
+			"name": "Portfolio"
+		},
+		{
+			"path": "./experience",
+			"name": "Experience"
+		}
+	]
+}
