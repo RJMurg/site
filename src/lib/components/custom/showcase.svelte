@@ -17,8 +17,10 @@
 
 	<div class="mb-10">
 		{#each categories as category (category.title)}
-			<h2 class="mt-20 text-center text-2xl">{category.title}</h2>
-			<div class="grid grid-cols-1 gap-6 lg:grid-cols-2 xl:grid-cols-3">
+			<h2 class="mt-20 text-center text-2xl font-bold lg:text-3xl lg:font-semibold">
+				{category.title}
+			</h2>
+			<div class="grid grid-cols-1 gap-6 transition-all duration-200 lg:grid-cols-2 xl:grid-cols-3">
 				{#each category.items as item (item.title)}
 					<ShowcaseCard
 						title={item.title}
