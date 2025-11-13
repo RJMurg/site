@@ -1,0 +1,5 @@
+services:
+  web:
+    build: .
+    container_name: 'rjm-template-base'
+    restart: always
