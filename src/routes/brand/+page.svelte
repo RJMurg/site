@@ -14,7 +14,7 @@
 			>
 		</h1>
 
-		<h2 class="text-lg font-light">v2.1</h2>
+		<h2 class="text-lg font-light">v2.2</h2>
 	</div>
 </div>
 
@@ -214,10 +214,81 @@
 	</div>
 </div>
 
+<div class="h-screen w-screen border-b-4 border-neutral-900 font-isoveka">
+	<div class="m-5 flex h-full flex-col items-start justify-end">
+		<h1 class="mb-10 h-1/2 text-6xl font-bold">Isoveka</h1>
+
+		<div class="h-full w-full text-center">
+			<Table.Root>
+				<Table.Row class="border-0 ">
+					<Table.Cell class="text-lg font-extralight sm:text-2xl lg:text-6xl">
+						<div class="flex flex-col">
+							ABCdef
+							<span class="text-sm font-normal md:text-lg">Isoveka Extra Light</span>
+						</div>
+					</Table.Cell>
+					<Table.Cell class="text-lg font-light sm:text-2xl lg:text-6xl">
+						<div class="flex flex-col">
+							ABCdef
+							<span class="text-sm font-normal md:text-lg">Isoveka Light</span>
+						</div>
+					</Table.Cell>
+					<Table.Cell class="text-lg font-normal sm:text-2xl lg:text-6xl">
+						<div class="flex flex-col">
+							ABCdef
+							<span class="text-sm font-normal md:text-lg">Isoveka Regular</span>
+						</div>
+					</Table.Cell>
+				</Table.Row>
+				<Table.Row class="border-0 ">
+					<Table.Cell class="text-lg italic sm:text-2xl lg:text-6xl">
+						<div class="flex flex-col">
+							ABCdef
+							<span class="text-sm font-normal not-italic md:text-lg">Isoveka Regular Italics</span>
+						</div>
+					</Table.Cell>
+					<Table.Cell class="text-lg font-medium sm:text-2xl lg:text-6xl">
+						<div class="flex flex-col">
+							ABCdef
+							<span class="text-sm font-normal md:text-lg">Isoveka Medium</span>
+						</div>
+					</Table.Cell>
+					<Table.Cell class="text-lg font-semibold sm:text-2xl lg:text-6xl">
+						<div class="flex flex-col">
+							ABCdef
+							<span class="text-sm font-normal md:text-lg">Isoveka Semi-Bold</span>
+						</div>
+					</Table.Cell>
+				</Table.Row>
+				<Table.Row class="border-0 ">
+					<Table.Cell class="text-lg font-bold sm:text-2xl lg:text-6xl">
+						<div class="flex flex-col">
+							ABCdef
+							<span class="text-sm font-normal md:text-lg">Isoveka Bold</span>
+						</div>
+					</Table.Cell>
+					<Table.Cell class="text-lg font-extrabold sm:text-2xl lg:text-6xl">
+						<div class="flex flex-col">
+							ABCdef
+							<span class="text-sm font-normal md:text-lg">Isoveka Extra Bold</span>
+						</div>
+					</Table.Cell>
+					<Table.Cell class="text-lg font-black sm:text-2xl lg:text-6xl">
+						<div class="flex flex-col">
+							ABCdef
+							<span class="text-sm font-normal md:text-lg">Isoveka Heavy</span>
+						</div>
+					</Table.Cell>
+				</Table.Row>
+			</Table.Root>
+		</div>
+	</div>
+</div>
+
 <div class="h-screen w-screen">
 	<div class="flex h-full flex-col items-start justify-end bg-red-500">
 		<h1
-			class="md:text-10xl text-8xl font-bold transition-all duration-500 md:mb-32 md:-ml-28 md:-rotate-90"
+			class="md:text-10xl text-8xl font-bold transition-all duration-500 md:mb-40 md:-ml-28 md:-rotate-90"
 		>
 			Colours
 		</h1>
