@@ -1,7 +1,7 @@
 name: Build & Publish Docker Image
 
 env:
-  REGISTRY: ghcr.io
+  REGISTRY: forgejo:3000
   IMAGE_NAME: ${{ github.repository }}
 
 on:
