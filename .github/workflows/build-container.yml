@@ -28,7 +28,7 @@ jobs:
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
-      - run: usermod -aG docker runner
+      - run: whoami
 
       - name: Log in to the Container registry
         uses: docker/login-action@v3
