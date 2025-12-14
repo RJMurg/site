@@ -28,7 +28,6 @@ jobs:
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
-      - run: sudo usermod -aG 996 runner
 
       - name: Log in to the Container registry
         uses: docker/login-action@v3
@@ -48,6 +47,20 @@ jobs:
             type=raw,value=latest,enable={{is_default_branch}}
           flavor: |
             latest=auto
+
+      - name: Fix Docker Issues
+        run: |
+          HOST_DOCKER_GID=996
+          CURRENT_USER=$(whoami)
+          if ! getent group $HOST_DOCKER_GID ; then
+            groupadd -o -g $HOST_DOCKER_GID docker_host_996
+            echo "Created new group 'docker_host_996' with GID 996."
+          else
+            echo "Group with GID 996 already exists."
+          fi
+          usermod -aG $HOST_DOCKER_GID $CURRENT_USER
+          echo "Groups after modification:"
+          id $CURRENT_USER
 
       - name: Build and push
         uses: docker/build-push-action@v6
