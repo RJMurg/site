@@ -28,7 +28,7 @@ jobs:
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
-      - run: sudo groupadd -aG 996 runner
+      - run: sudo usermod -aG 996 runner
 
       - name: Log in to the Container registry
         uses: docker/login-action@v3
