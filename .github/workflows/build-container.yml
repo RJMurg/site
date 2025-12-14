@@ -1,7 +1,7 @@
 name: Build & Publish Docker Image
 
 env:
-  REGISTRY: https://git.rjm.ie
+  REGISTRY: git.rjm.ie
   IMAGE_NAME: ${{ github.repository }}
 
 on:
