@@ -28,7 +28,7 @@ jobs:
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
-      run: |
+      - run: |
         # 1. Create the 'docker' group if it doesn't exist
         # The GID (e.g., 999) must match the primary group of the Docker socket on the HOST.
         # We find the host socket's group ID by statting the mounted file:
