@@ -28,7 +28,30 @@ jobs:
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
-      - run: whoami
+      run: |
+      # 1. Create the 'docker' group if it doesn't exist
+      # The GID (e.g., 999) must match the primary group of the Docker socket on the HOST.
+      # We find the host socket's group ID by statting the mounted file:
+      HOST_DOCKER_GID=$(stat -c '%g' /var/run/docker.sock)
+      
+      # 2. Add the 'docker' group to the container with the HOST's GID
+      # This is key: it maps the container 'docker' group to the host's actual group ID.
+      if ! getent group docker ; then
+        groupadd -g $HOST_DOCKER_GID docker
+        echo "Added 'docker' group with GID $HOST_DOCKER_GID"
+      fi
+
+      # 3. Add the current container user to the 'docker' group
+      # We check if the user is already in the group before attempting to add
+      CURRENT_USER=$(whoami)
+      if ! id -nG "$CURRENT_USER" | grep -qw "docker"; then
+        usermod -aG docker $CURRENT_USER
+        echo "Added user $CURRENT_USER to the 'docker' group."
+      fi
+
+      # Optional: Verify the current user's groups
+      echo "Current user's groups after modification:"
+      id
 
       - name: Log in to the Container registry
         uses: docker/login-action@v3
