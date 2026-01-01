@@ -59,7 +59,7 @@
 		{#each Routes.routes as route (route.name)}
 			{#if route.name !== 'Home'}
 				<a
-					href={resolve(route.path)}
+					href={route.path}
 					class="xs:m-2 basis-1/3 text-center transition-all duration-200 ease-linear hover:text-white hover:underline"
 					>My {route.name}</a
 				>
