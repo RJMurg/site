@@ -9,11 +9,11 @@
 			"name": "Blog"
 		},
 		{
-			"path": "./portfolio",
+			"path": "/portfolio",
 			"name": "Portfolio"
 		},
 		{
-			"path": "./experience",
+			"path": "/experience",
 			"name": "Experience"
 		}
 	]
