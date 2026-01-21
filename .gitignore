@@ -2,6 +2,8 @@ coverage
 test-results
 node_modules
 
+.direnv
+
 # Output
 .output
 .vercel
