@@ -78,6 +78,22 @@
 			]
 		},
 		{
+			"title": "Talks",
+			"items": [
+				{
+					"title": "Four Year bus",
+					"image": "fosdem.svg",
+					"link": "https://rjm.ie/slides/fosdem/2025/Four-Year-Bus.pdf",
+					"shortDescription": "FOSDEM 2025",
+					"description": [
+						"Delivered as a /dev/random 15-minute talk",
+						"Covers the unique position of Systems Administration in university societies",
+						"Presents approaches to minimise the bus factor in volunteering & FOSS projects"
+					]
+				}
+			]
+		},
+		{
 			"title": "Other Projects",
 			"items": [
 				{
