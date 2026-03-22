@@ -23,7 +23,11 @@
 		{/if}
 
 		{#if link}
-			<a href={link} target="_blank" class="flex flex-row items-center hover:text-gray-400">
+			<a
+				href={resolve(link)}
+				target="_blank"
+				class="flex flex-row items-center hover:text-gray-400"
+			>
 				<Card.Title class="text-bold text-center text-4xl">{title}</Card.Title>
 				<ExternalLink class="m-0 ml-2 h-6 w-6 p-0" />
 			</a>
