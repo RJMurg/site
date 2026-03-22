@@ -59,11 +59,16 @@
 		{#each Routes.routes as route (route.name)}
 			{#if route.name !== 'Home'}
 				<a
-					href={route.path}
+					href={resolve(route.path)}
 					class="xs:m-2 basis-1/3 text-center transition-all duration-200 ease-linear hover:text-white hover:underline"
 					>My {route.name}</a
 				>
 			{/if}
 		{/each}
 	</div>
+
+	<a
+		class="absolute bottom-5 mx-auto text-sm text-muted-foreground hover:underline"
+		href={resolve('/buildersplate')}>Builder's Plate</a
+	>
 </section>
