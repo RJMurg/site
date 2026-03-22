@@ -30,7 +30,7 @@
 		{#each Routes.routes as route (route.name)}
 			<li>
 				<a
-					href={route.path}
+					href={resolve(route.path)}
 					class="transition-all duration-200 ease-linear hover:text-white hover:underline"
 				>
 					{route.name}
@@ -46,7 +46,7 @@
 			{#each Routes.routes as route (route.name)}
 				<li class="p-4">
 					<a
-						href={route.path}
+						href={resolve(route.path)}
 						class="text-4xl transition-all duration-200 ease-linear hover:text-white hover:underline"
 						>{route.name}</a
 					>
