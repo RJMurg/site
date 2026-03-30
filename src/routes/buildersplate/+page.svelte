@@ -34,7 +34,7 @@
 				<ExternalLink class="h-4 w-4 shrink-0" />
 			</a>, a web framework that I cannot recommend higher.
 			<br />
-			Designed for everything from edge-based Web Apps, PWAs and even static sties, it is a breeze to
+			Designed for everything from edge-based Web Apps, PWAs and even static sites, it is a breeze to
 			work with it.
 		</p>
 
