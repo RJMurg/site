@@ -1,18 +1,27 @@
-# Step 1: Build stage
+# Build stage
+# For now, the bun container is INCREDIBLY slow when it comes to installing and building
+#FROM oven/bun:alpine AS build
+#WORKDIR /app
+#COPY package*.json ./
+#COPY bun.lock ./
+#RUN bun ci --verbose
+#COPY . .
+#RUN bun run build
+
+# Builder
 FROM node:24-alpine AS build
 WORKDIR /app
+COPY package*.json ./
+RUN npm ci
 COPY . .
-RUN npm ci && npm run build
+RUN npm run build
 
-# Step 2: Production stage
-FROM node:24-alpine
-WORKDIR /app
-COPY --from=build /app/static ./static
-COPY --from=build /app/package*.json ./
-RUN npm ci --omit=dev --ignore-scripts
-COPY --from=build /app/build ./
+# Production stage
+FROM nginxinc/nginx-unprivileged:alpine
+COPY --from=build /app/build /usr/share/nginx/html
+COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 HEALTHCHECK --interval=30s --timeout=10s --start-period=10s --start-interval=3s \
-    CMD ["sh", "-c", "wget -q --spider http://127.0.0.1:3000/ || exit 1"]
+    CMD ["sh", "-c", "wget -q --spider http://127.0.0.1/ || exit 1"]
 
-CMD ["node", "./"]
+EXPOSE 8080

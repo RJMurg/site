@@ -2,19 +2,28 @@
 	"routes": [
 		{
 			"path": "/",
-			"name": "Home"
+			"name": "Home",
+			"external": false
 		},
 		{
 			"path": "https://blog.rjm.ie",
-			"name": "Blog"
+			"name": "Blog",
+			"external": true
 		},
 		{
 			"path": "/portfolio",
-			"name": "Portfolio"
+			"name": "Portfolio",
+			"external": false
 		},
 		{
 			"path": "/experience",
-			"name": "Experience"
+			"name": "Experience",
+			"external": false
+		},
+		{
+			"path": "/buildersplate",
+			"name": "Builder's Plate",
+			"external": false
 		}
 	]
 }

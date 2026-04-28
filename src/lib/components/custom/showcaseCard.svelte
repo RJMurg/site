@@ -2,7 +2,6 @@
 	import * as Card from '$lib/components/shad/ui/card';
 	import { ExternalLink } from 'lucide-svelte';
 	import { resolve } from '$app/paths';
-	import type { RouteId } from '$app/types';
 
 	let {
 		title,
@@ -10,7 +9,7 @@
 		link,
 		subtitle,
 		description
-	}: { title: string; image: string; link: RouteId; subtitle: string; description: [string] } =
+	}: { title: string; image: string; link: string; subtitle: string; description: [string] } =
 		$props();
 </script>
 
@@ -24,7 +23,7 @@
 
 		{#if link}
 			<a
-				href={resolve(link)}
+				href={link.startsWith('http') ? link : resolve(link)}
 				target="_blank"
 				class="flex flex-row items-center hover:text-gray-400"
 			>

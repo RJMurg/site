@@ -3,6 +3,7 @@
 	import { Linkedin, Github } from 'lucide-svelte';
 	import Routes from '$lib/contents/routes.json';
 	import { resolve } from '$app/paths';
+	import headshot from '$lib/assets/headshot.webp?enhanced';
 
 	let { subtitle }: { subtitle: string } = $props();
 </script>
@@ -16,12 +17,12 @@
 	class="flex h-screen w-screen flex-col items-center justify-center overflow-hidden"
 >
 	<div class="flex flex-col items-center justify-center md:flex-row lg:pb-10">
-		<img
-			src="headshot.webp"
+		<enhanced:img
+			src={headshot}
 			alt="Ruán Murgatroyd"
-			class="aspect-square w-3/4 rounded-full p-10 sm:w-1/2 md:w-3/12"
+			class="mx-auto aspect-square w-3/4 rounded-full p-10 md:mx-0 md:ml-auto"
 		/>
-		<div class="items-left flex flex-col">
+		<div class="items-left mr-auto flex w-full flex-col">
 			<h1 class="pl-0 text-center text-4xl font-black md:pl-10 md:text-left md:text-6xl">
 				Ruán Murgatroyd
 			</h1>
@@ -59,16 +60,11 @@
 		{#each Routes.routes as route (route.name)}
 			{#if route.name !== 'Home'}
 				<a
-					href={resolve(route.path)}
+					href={route.external ? route.path : resolve(route.path)}
 					class="xs:m-2 basis-1/3 text-center transition-all duration-200 ease-linear hover:text-white hover:underline"
 					>My {route.name}</a
 				>
 			{/if}
 		{/each}
 	</div>
-
-	<a
-		class="relative bottom-0 mx-auto text-sm text-muted-foreground hover:underline lg:bottom-5"
-		href={resolve('/buildersplate')}>Builder's Plate</a
-	>
 </section>

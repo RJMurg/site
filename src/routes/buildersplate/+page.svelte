@@ -8,7 +8,7 @@
 	<title>Builder's Plate</title>
 </svelte:head>
 
-<Card.Root class="w-full rounded-full p-24 md:w-2/3 lg:p-15">
+<Card.Root class="w-full rounded-md p-24 md:w-2/3 lg:p-15">
 	<Card.Header class="flex flex-row items-center">
 		<a
 			class="mr-4 text-muted-foreground transition-all duration-150 ease-in-out hover:scale-150"
@@ -18,7 +18,7 @@
 		</a>
 		<div>
 			<Card.Title class="text-4xl font-black">Builder's Plate</Card.Title>
-			<Card.Description>Running v2.3.1</Card.Description>
+			<Card.Description>Running v2.3.3</Card.Description>
 		</div>
 	</Card.Header>
 

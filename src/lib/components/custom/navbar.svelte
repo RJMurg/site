@@ -2,6 +2,7 @@
 	import Routes from '$lib/contents/routes.json';
 	import { Menu } from 'lucide-svelte';
 	import { resolve } from '$app/paths';
+	import type { RouteId } from '$app/types';
 
 	let open = false;
 	const toggleMenu = () => {
@@ -24,17 +25,24 @@
 		</div>
 		<div class="basis-1/3"></div>
 	</div>
-	<ul
-		class="flex hidden w-full flex-wrap items-center justify-around text-xl text-gray-400 sm:flex"
-	>
+	<ul class="hidden w-full flex-wrap items-center justify-around text-xl text-gray-400 sm:flex">
 		{#each Routes.routes as route (route.name)}
 			<li>
-				<a
-					href={resolve(route.path)}
-					class="transition-all duration-200 ease-linear hover:text-white hover:underline"
-				>
-					{route.name}
-				</a>
+				{#if route.external}
+					<a
+						href={route.path}
+						class="transition-all duration-200 ease-linear hover:text-white hover:underline"
+					>
+						{route.name}
+					</a>
+				{:else}
+					<a
+						href={resolve(route.path as RouteId)}
+						class="transition-all duration-200 ease-linear hover:text-white hover:underline"
+					>
+						{route.name}
+					</a>
+				{/if}
 			</li>
 		{/each}
 	</ul>
@@ -46,7 +54,7 @@
 			{#each Routes.routes as route (route.name)}
 				<li class="p-4">
 					<a
-						href={resolve(route.path)}
+						href={route.external ? route.path : resolve(route.path)}
 						class="text-4xl transition-all duration-200 ease-linear hover:text-white hover:underline"
 						>{route.name}</a
 					>
