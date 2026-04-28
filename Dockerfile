@@ -22,6 +22,6 @@ COPY --from=build /app/build /usr/share/nginx/html
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 HEALTHCHECK --interval=30s --timeout=10s --start-period=10s --start-interval=3s \
-    CMD ["sh", "-c", "wget -q --spider http://127.0.0.1/ || exit 1"]
+    CMD ["sh", "-c", "wget -q --spider http://127.0.0.1:8080/ || exit 1"]
 
 EXPOSE 8080
