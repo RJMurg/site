@@ -8,7 +8,7 @@
 	<title>Builder's Plate</title>
 </svelte:head>
 
-<Card.Root class="w-full md:w-2/3">
+<Card.Root class="w-full rounded-full p-24 md:w-2/3 lg:p-15">
 	<Card.Header class="flex flex-row items-center">
 		<a
 			class="mr-4 text-muted-foreground transition-all duration-150 ease-in-out hover:scale-150"
@@ -18,7 +18,7 @@
 		</a>
 		<div>
 			<Card.Title class="text-4xl font-black">Builder's Plate</Card.Title>
-			<Card.Description>Running v2.3.0</Card.Description>
+			<Card.Description>Running v2.3.1</Card.Description>
 		</div>
 	</Card.Header>
 
@@ -72,7 +72,7 @@
 			infrastructure using
 			<a
 				target="_blank"
-				href="https://lucide.dev/"
+				href="https://forgejo.org/"
 				class="inline-flex items-center gap-1 whitespace-nowrap text-blue-500 transition-all duration-100 ease-in-out hover:text-blue-400"
 			>
 				Forgejo
@@ -81,7 +81,7 @@
 			and mirrored to my
 			<a
 				target="_blank"
-				href="https://lucide.dev/"
+				href="https://github.com/rjmurg"
 				class="inline-flex items-center gap-1 whitespace-nowrap text-blue-500 transition-all duration-100 ease-in-out hover:text-blue-400"
 			>
 				GitHub

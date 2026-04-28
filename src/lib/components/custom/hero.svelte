@@ -68,7 +68,7 @@
 	</div>
 
 	<a
-		class="absolute bottom-0 mx-auto text-sm text-muted-foreground hover:underline lg:bottom-5"
+		class="relative bottom-0 mx-auto text-sm text-muted-foreground hover:underline lg:bottom-5"
 		href={resolve('/buildersplate')}>Builder's Plate</a
 	>
 </section>
