@@ -4,16 +4,14 @@
 			"title": "Technical Projects",
 			"items": [
 				{
-					"title": "SIM",
+					"title": "Traqit",
 					"image": "",
-					"link": "https://github.com/rjmurg/sim",
-					"shortDescription": "At-a-glance date checking for shops",
+					"link": "",
+					"shortDescription": "Inventory Management for Student Life",
 					"description": [
-						"Created while working at a local shop",
-						"MVP created in two days",
-						"Allows at-a-glance list of stock that needs to be wasted",
-						"Stock added to system when placed on the shelf",
-						"Rewritten in SvelteKit for better performance"
+						"Created as Final Year Project in Computer Science Undergraduate",
+						"Complete inventory management system for Clubs and Societies in TU Dublin",
+						"Actively deployed to Student Life Groups in TU Dublin"
 					]
 				},
 				{
@@ -42,14 +40,27 @@
 					]
 				},
 				{
-					"title": "Traqit",
+					"title": "SIM",
 					"image": "",
-					"link": "",
-					"shortDescription": "Inventory Management for Student Life",
+					"link": "https://github.com/rjmurg/sim",
+					"shortDescription": "At-a-glance date checking for shops",
 					"description": [
-						"Created as Final Year Project in Computer Science Undergraduate",
-						"Complete inventory management system for Clubs and Societies in TU Dublin",
-						"Completed project will be deployed & used by Student Life in TU Dublin"
+						"Created while working at a local shop",
+						"MVP created in two days",
+						"Allows at-a-glance list of stock that needs to be wasted",
+						"Stock added to system when placed on the shelf",
+						"Rewritten in SvelteKit for better performance"
+					]
+				},
+				{
+					"title": "Raster",
+					"image": "",
+					"link": "https://github.com/rjmurg/raster",
+					"shortDescription": "Generate images for README headers",
+					"description": [
+						"SvelteKit web app that generates images for READMEs",
+						"API accepts title, subtitle & colours",
+						"Working on expansion to support custom BGs & status badges"
 					]
 				},
 				{
