@@ -18,7 +18,7 @@
 		</a>
 		<div>
 			<Card.Title class="text-4xl font-black">Builder's Plate</Card.Title>
-			<Card.Description>Running v2.3.3</Card.Description>
+			<Card.Description>Running v2.3.4</Card.Description>
 		</div>
 	</Card.Header>
 
