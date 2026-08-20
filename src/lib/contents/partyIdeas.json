@@ -206,7 +206,15 @@
 						"Guests then show their item",
 						"Vote on most interesting item"
 					]
-				}
+				},
+                {
+                    "title": "Strapped",
+                    "description": [
+                        "Guests bring their own drink",
+                        "They have to wesr all of it",
+                        "Nothing can be put down"
+                    ]
+                }
 			]
 		}
 	]
