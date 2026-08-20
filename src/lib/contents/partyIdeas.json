@@ -1,0 +1,213 @@
+{
+	"categories": [
+		{
+			"title": "Party Ideas",
+			"items": [
+				{
+					"title": "Bring a Friend Only You Know",
+					"description": ["Bring a friend to the party that no-one else but you knows"]
+				},
+				{
+					"title": "Birthday-themed",
+					"description": [
+						"Run on a date that is not your birthday",
+						"Guests wear party hats",
+						"Cake w/ candles",
+						"Goodie bags when leaving"
+					]
+				},
+				{
+					"title": "I Couldn't Wear This Anywhere Else",
+					"description": [
+						"Guests wear outfits they couldn't wear anywhere else",
+						"Arrive in normal clothes & change into their outfit on arrival",
+						"Examples include weird outfits, new styles, something they could only wear once"
+					]
+				},
+				{
+					"title": "School Picture Day",
+					"description": [
+						"Marbled backdrop",
+						"Photography lights",
+						"Everyone lines up and gets their photo taken",
+						"Group photo",
+						"Photos printed and given to guests"
+					]
+				},
+				{
+					"title": "Victorian Banquet",
+					"description": [
+						"Everyone dresses up in victorian-style clothes",
+						"Multi-course dinner at a big table",
+						"Everyone has to follow 'formal' eating etiquette"
+					]
+				},
+				{
+					"title": "I Wore This All The Way Here",
+					"description": [
+						"Guests come to party in stupid outfits",
+						"They have to wear it the whole way there",
+						"Guests vote on the silliest outfit"
+					]
+				},
+				{
+					"title": "Among Us IRL",
+					"description": [
+						"Guests are given secret roles",
+						"Crewmates must complete tasks",
+						"Impostors must sabotage & kill players"
+					]
+				},
+				{
+					"title": "Secret Allergy",
+					"description": [
+						"Every guest given random silly allergy",
+						"Examples include cold water, soft drinks, Any green food",
+						"Guests must guess eachothers' allergy",
+						"If your allergy is guessed, you lose"
+					]
+				},
+				{
+					"title": "Wake-themed",
+					"description": [
+						"Everyone wears funeral clothes",
+						"Coffee, tea, biscuits and sandwiches cut into triangles",
+						"Mournful, quiet chatting only"
+					]
+				},
+				{
+					"title": "Murder Mystery",
+					"description": ["You already know what this is."]
+				},
+				{
+					"title": "PowerPoint Night",
+					"description": [
+						"Everyone creates a PowerPoint",
+						"Every guest gets only 3 minutes to present"
+					]
+				},
+				{
+					"title": "Spy Party",
+					"description": [
+						"Some guest is selected as the spy",
+						"Another as the double-agent",
+						"Another as the target",
+						"Last one as the Investigator",
+						"Spy must find the double-agent with a code word, plant evidence on the target and complete tasks without being identified"
+					]
+				},
+				{
+					"title": "Ball Pit",
+					"description": ["One or more rooms have a ballpit", "Normal party, just with a ballpit"]
+				},
+				{
+					"title": "Cocktail Making",
+					"description": [
+						"Guests work together to make cocktails",
+						"Guests bring drinks & mixers",
+						"Cocktails tasted and ranked"
+					]
+				},
+				{
+					"title": "Working From Home",
+					"description": ["Guests bring their laptops", "All work from home together at the party"]
+				},
+				{
+					"title": "Year in Review",
+					"description": [
+						"Guests prepare a PowerPoint",
+						"Covers everything they did this year",
+						"Keeps everyone up-to-date"
+					]
+				},
+				{
+					"title": "Face Painting",
+					"description": [
+						"Buy face paints",
+						"Hire a face painter / have everyone paint eachothers' faces"
+					]
+				},
+				{
+					"title": "Clothes Pegging",
+					"description": [
+						"Guests have to secretly plant as many clothes pegs on eachother as possible"
+					]
+				},
+				{
+					"title": "Leaving Cert",
+					"description": [
+						"Guests sit Leaving Cert exams (Bonus points for making a fake paper)",
+						"Grade eachothers papers",
+						"Highest grade wins a prize"
+					]
+				},
+				{
+					"title": "Buzzball Thrower",
+					"description": [
+						"Guests throw a BuzzBall at others",
+						"If the person catches it, they have to drink it",
+						"Otherwise, the thrower drinks it"
+					]
+				},
+				{
+					"title": "Clownery",
+					"description": ["Normal party", "Hire a clown, mime / immitator"]
+				},
+				{
+					"title": "Temporary Tattoos",
+					"description": [
+						"Everyone attending has to put on at least one temporary tattoo",
+						"Normal party otherwise"
+					]
+				},
+				{
+					"title": "Special interest quiz",
+					"description": ["Host makes a quiz of topics they enjoy", "Guests compete in the quiz"]
+				},
+				{
+					"title": "Social Distance Kitchen",
+					"description": ["Guests work together to cook meals", "Guests must use grabbers to cook"]
+				},
+				{
+					"title": "Just Sweet",
+					"description": [
+						"Guests take the pill that make sour things taste sweet",
+						"All snacks at party are sour",
+						"Bonus point if some of the pills are placebo & guests have to guess who has a placebo"
+					]
+				},
+				{
+					"title": "Chicken Rush",
+					"description": [
+						"Someone wears a chicken costume",
+						"Guests must go through a city / town and find the bar with the chicken in it"
+					]
+				},
+				{
+					"title": "Vampire Party",
+					"description": [
+						"Everyone dresses as vampires",
+						"One guest is given the vampire role",
+						"Vampire must turn everyone by the end of the party"
+					]
+				},
+				{
+					"title": "LAN Party",
+					"description": ["Guests bring laptops & PCs", "Spend the day playing LAN games together"]
+				},
+				{
+					"title": "Spelling Bee",
+					"description": ["Like US Spelling Bees", "Words get harder as time goes on"]
+				},
+				{
+					"title": "Show and Tell",
+					"description": [
+						"Guests bring interesting items",
+						"Guests then show their item",
+						"Vote on most interesting item"
+					]
+				}
+			]
+		}
+	]
+}

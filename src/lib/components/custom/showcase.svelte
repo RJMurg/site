@@ -4,8 +4,14 @@
 	let {
 		title,
 		categories,
-		imageDirectory
-	}: { title: string; categories: categories; imageDirectory: string } = $props();
+		imageDirectory,
+		noimage = false
+	}: {
+		title?: string;
+		categories: categories;
+		imageDirectory: string;
+		noimage: boolean;
+	} = $props();
 </script>
 
 <svelte:head>
@@ -13,7 +19,9 @@
 </svelte:head>
 
 <section class="overflow-visible">
-	<h1 class="mt-20 text-center text-4xl">{title}</h1>
+	{#if title}
+		<h1 class="mt-20 text-center text-4xl">{title}</h1>
+	{/if}
 
 	<div class="mb-10">
 		{#each categories as category (category.title)}
@@ -28,6 +36,7 @@
 						link={item.link}
 						subtitle={item.shortDescription}
 						description={item.description}
+						{noimage}
 					/>
 				{/each}
 			</div>

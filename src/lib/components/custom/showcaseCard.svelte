@@ -8,17 +8,20 @@
 		image,
 		link,
 		subtitle,
-		description
-	}: { title: string; image: string; link: string; subtitle: string; description: [string] } =
+		description,
+		noimage = false
+	}: { title: string; image: string; link: string; subtitle: string; description: [string], noimage: boolean } =
 		$props();
 </script>
 
 <Card.Root class="m-5 h-full max-w-[30rem] min-w-[16rem]">
 	<Card.Header class="align-center flex flex-col items-center">
-		{#if image !== '/portfolio/'}
-			<img src={image} alt={title} class="h-20 w-20 rounded-full object-cover" />
-		{:else}
-			<img src="white.webp" alt="Placeholder" class="h-20 w-20 object-cover" />
+		{#if !noimage}
+			{#if image !== '/portfolio/'}
+				<img src={image} alt={title} class="h-20 w-20 rounded-full object-cover" />
+			{:else}
+				<img src="white.webp" alt="Placeholder" class="h-20 w-20 object-cover" />
+			{/if}
 		{/if}
 
 		{#if link}
