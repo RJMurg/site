@@ -214,6 +214,13 @@
                         "They have to wesr all of it",
                         "Nothing can be put down"
                     ]
+                },
+                {
+                    "title": "Starship Commander",
+                    "description": [
+                        "Run an in-person game of Empty Epsilon",
+                        "Players have set roles and must complete a custom campaign"
+                    ]
                 }
 			]
 		}
