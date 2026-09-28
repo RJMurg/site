@@ -221,6 +221,13 @@
                         "Run an in-person game of Empty Epsilon",
                         "Players have set roles and must complete a custom campaign"
                     ]
+                },
+                {
+                    "title": "Costume Making Party",
+                    "description": [
+                        "Players bring materials to make costumes",
+                        "They make costumes together"
+                    ]
                 }
 			]
 		}
