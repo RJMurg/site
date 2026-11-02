@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Routes from '$lib/contents/routes.json';
+	import Routes from '#lib/contents/routes.json';
 	import { Menu } from 'lucide-svelte';
 	import { resolve } from '$app/paths';
 	import type { RouteId } from '$app/types';

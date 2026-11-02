@@ -207,28 +207,32 @@
 						"Vote on most interesting item"
 					]
 				},
-                {
-                    "title": "Strapped",
-                    "description": [
-                        "Guests bring their own drink",
-                        "They have to wesr all of it",
-                        "Nothing can be put down"
-                    ]
-                },
-                {
-                    "title": "Starship Commander",
-                    "description": [
-                        "Run an in-person game of Empty Epsilon",
-                        "Players have set roles and must complete a custom campaign"
-                    ]
-                },
-                {
-                    "title": "Costume Making Party",
-                    "description": [
-                        "Players bring materials to make costumes",
-                        "They make costumes together"
-                    ]
-                }
+				{
+					"title": "Strapped",
+					"description": [
+						"Guests bring their own drink",
+						"They have to wear all of it",
+						"Nothing can be put down"
+					]
+				},
+				{
+					"title": "Starship Commander",
+					"description": [
+						"Run an in-person game of Empty Epsilon",
+						"Players have set roles and must complete a custom campaign"
+					]
+				},
+				{
+					"title": "Costume Making Party",
+					"description": ["Players bring materials to make costumes", "They make costumes together"]
+				},
+				{
+					"title": "Wii™nter Olympics",
+					"description": [
+						"Play the Wii Sports",
+						"Set up like the Olympics with opening & closing ceremonies"
+					]
+				}
 			]
 		}
 	]

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import * as Table from '$lib/components/shad/ui/table/index.js';
+	import * as Table from '#lib/components/shad/ui/table/index.js';
 </script>
 
 <svelte:head>

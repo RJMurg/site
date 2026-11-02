@@ -1,7 +1,8 @@
 <script lang="ts">
-	import * as Card from '$lib/components/shad/ui/card';
+	import * as Card from '#lib/components/shad/ui/card/index.js';
 	import { resolve } from '$app/paths';
 	import { ChevronLeftIcon, ExternalLink } from 'lucide-svelte';
+	import { version } from '../../../package.json';
 </script>
 
 <svelte:head>
@@ -18,7 +19,7 @@
 		</a>
 		<div>
 			<Card.Title class="text-4xl font-black">Builder's Plate</Card.Title>
-			<Card.Description>Running v2.3.4</Card.Description>
+			<Card.Description>Running v{version}</Card.Description>
 		</div>
 	</Card.Header>
 
@@ -30,9 +31,10 @@
 				href="https://svelte.dev/"
 				class="inline-flex items-center gap-1 whitespace-nowrap text-blue-500 transition-all duration-100 ease-in-out hover:text-blue-400"
 			>
-				Svelte 5 and SvelteKit 2
+				Svelte 5 and SvelteKit 3
 				<ExternalLink class="h-4 w-4 shrink-0" />
-			</a>, a web framework that I cannot recommend higher.
+			</a>
+			framework that I cannot recommend higher.
 			<br />
 			Designed for everything from edge-based Web Apps, PWAs and even static sites, it is a breeze to
 			work with it.
@@ -60,8 +62,9 @@
 
 		<p>
 			For information on the fonts, colours, logos, and other styling universal to all my technical
-			and non-technical projects, check out my <a
-				href={resolve('/brand')}
+			and non-technical projects, check out my
+			<a
+				href={resolve('brand')}
 				class="text-blue-500 transition-all duration-100 ease-in-out hover:text-blue-400"
 				>PrimaryStyle</a
 			>.

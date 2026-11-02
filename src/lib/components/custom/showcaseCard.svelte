@@ -1,5 +1,5 @@
 <script lang="ts">
-	import * as Card from '$lib/components/shad/ui/card';
+	import * as Card from '#lib/components/shad/ui/card/index.js';
 	import { ExternalLink } from 'lucide-svelte';
 	import { resolve } from '$app/paths';
 
@@ -10,8 +10,14 @@
 		subtitle,
 		description,
 		noimage = false
-	}: { title: string; image: string; link: string; subtitle: string; description: [string], noimage: boolean } =
-		$props();
+	}: {
+		title: string;
+		image: string;
+		link: string;
+		subtitle: string;
+		description: [string];
+		noimage: boolean;
+	} = $props();
 </script>
 
 <Card.Root class="m-5 h-full max-w-[30rem] min-w-[16rem]">

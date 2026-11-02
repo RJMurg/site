@@ -4,16 +4,25 @@
 			"title": "Work Experience",
 			"items": [
 				{
+					"title": "Software Developer",
+					"image": "sap.png",
+					"link": "",
+					"shortDescription": "SAP",
+					"description": [
+						"Converted to full time July 2026",
+						"Creating and developing features for SAP Analytics Cloud"
+					]
+				},
+				{
 					"title": "STAR Student",
 					"image": "sap.png",
 					"link": "",
 					"shortDescription": "SAP",
 					"description": [
 						"Joined May 2024",
-						"STAR Programme consists of 2 rotations separated by semester 1 of Third Year",
+						"2 practical rotations either side of Third Year",
 						"Created production features in SAP Analytics Cloud",
-						"Second rotation on Core team in SAP Global Headquarters, Germany",
-						"Sole developer of product that is actively being integrated in to SAP Analytics Cloud",
+						"Second rotation on Core team in SAP's Global Headquarters, Germany",
 						"Designed and implemented multi-platform standard for creation of analytical dashboards"
 					]
 				},
@@ -58,6 +67,17 @@
 						"Won for the most significant contribution to societies in the 2024/25 Academic Year",
 						"Contribution includes massively improved student voice, bringing all campuses together, and restoring the technical aspect of the Computer Science Society",
 						"Negotiated and worked with University staff to improve Student Life and Societies"
+					]
+				},
+				{
+					"title": "International Competitor",
+					"image": "ws-shanghai.png",
+					"link": "",
+					"shortDescription": "WorldSkills Shanghai 2026 Cloud Computing",
+					"description": [
+						"22nd - 27th of September 2026",
+						"Competition involved architecting, security & devops",
+						"Placed 12th internationally"
 					]
 				},
 				{

@@ -1,9 +1,9 @@
 <script lang="ts">
-	import { Button } from '$lib/components/shad/ui/button';
+	import { Button } from '#lib/components/shad/ui/button/index.js';
 	import { Linkedin, Github } from 'lucide-svelte';
-	import Routes from '$lib/contents/routes.json';
+	import Routes from '#lib/contents/routes.json';
 	import { resolve } from '$app/paths';
-	import headshot from '$lib/assets/headshot.webp?enhanced';
+	import headshot from '#lib/assets/headshot.webp?enhanced';
 
 	let { subtitle }: { subtitle: string } = $props();
 </script>

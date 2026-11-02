@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { ArrowLeft } from 'lucide-svelte';
-	import { Button } from '$lib/components/shad/ui/button';
+	import { Button } from '#lib/components/shad/ui/button/index.js';
 </script>
 
 <svelte:head>

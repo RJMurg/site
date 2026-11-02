@@ -1,7 +1,7 @@
 <script lang="ts">
-	import Navbar from '$lib/components/custom/navbar.svelte';
-	import portfolioItems from '$lib/contents/portfolio.json';
-	import Showcase from '$lib/components/custom/showcase.svelte';
+	import Navbar from '#lib/components/custom/navbar.svelte';
+	import portfolioItems from '#lib/contents/portfolio.json';
+	import Showcase from '#lib/components/custom/showcase.svelte';
 </script>
 
 <Navbar />
