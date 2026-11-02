@@ -64,10 +64,12 @@
 			For information on the fonts, colours, logos, and other styling universal to all my technical
 			and non-technical projects, check out my
 			<a
-				href={resolve('brand')}
-				class="text-blue-500 transition-all duration-100 ease-in-out hover:text-blue-400"
-				>PrimaryStyle</a
-			>.
+				href="https://brand.rjm.ie"
+				class="inline-flex items-center gap-1 whitespace-nowrap text-blue-500 transition-all duration-100 ease-in-out hover:text-blue-400"
+			>
+				PrimaryStyle
+				<ExternalLink class="h-4 w-4 shrink-0" />
+			</a>.
 		</p>
 
 		<p>
